@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+header {
+    background-color: rgb(72, 185, 72);
+    border:10px solid color(rgb(87, 209, 87));
+    text-align: center;
+    color:white;
+    border-radius: 10px;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+.tarolo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    gap: 10px;
+}
+
+.vizek {
+    text-align:center;
+    border: 10px solid white;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+
+
+.cim {
+    border: 10px solid white;
+    border-radius: 10px;
+    background-color: white;
+    gap: 20px;
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .tarolo {
+ 
+        grid-template-columns: repeat(2, 1fr);
+
+}
+}
+
+@media screen and (max-width: 500px) {
+    .tarolo {
+    
+        grid-template-columns: 1fr;
+   
+}
+}
